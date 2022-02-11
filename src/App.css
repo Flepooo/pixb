@@ -3,6 +3,7 @@
  html {
   zoom: 0.8; /* Old IE only */
   -moz-transform: scale(0.8);
+  font-family: gotham;
 } 
 
 *{
@@ -11,6 +12,8 @@
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
+    font-family: gotham;
+
   }
   body{
     font-family: gotham;
@@ -34,6 +37,7 @@
       color: white;
       font-size: 15px;
       margin-right: 10%;
+      font-family: gotham;
   }
 
   .contt{
@@ -73,6 +77,7 @@
       color: black;
       font-weight: bold;
       margin-left: 35px;
+      font-family: gotham;
   }
 
   .link-txt-sel{
