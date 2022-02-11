@@ -171,7 +171,9 @@ function Home(){
             
             <div id="contact-us">
                  <div className='txt-ser'><p className='ser-p'>Contact us</p></div>
-                <div className='cont-main'></div>
+                <div className='cont-main'>
+                    <div ></div>
+                </div>
             </div>
 
         </div>
