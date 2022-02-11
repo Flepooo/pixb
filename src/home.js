@@ -17,6 +17,13 @@ import p3 from './img/2.png';
 import p4 from './img/5.png';
 import p5 from './img/3.png';
 import cli1 from './img/cli-1.svg';
+import pix2 from './img/pix2.svg';
+import face from './img/face.svg';
+import twi from './img/twi.svg';
+import inst from './img/inst.svg';
+import ins from './img/ins.svg';
+import beh from './img/beh.svg';
+import info from './img/info.svg';
 
 function Home(){
 
@@ -170,10 +177,58 @@ function Home(){
             </div>
             
             <div id="contact-us">
-                 <div className='txt-ser'><p className='ser-p'>Contact us</p></div>
+                <div className='txt-ser'><p className='ser-p'>Contact us</p></div>
                 <div className='cont-main'>
-                    <div ></div>
+                    <div className='cont-map'>
+                     <iframe className='map' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3410.9381965727875!2d29.967617514988937!3d31.250134181459867!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f5c53392d4c857%3A0x3854949bc1c99b3f!2sPixb%20advertisng!5e0!3m2!1sen!2seg!4v1644603550632!5m2!1sen!2seg" loading="lazy"></iframe>
+                    </div>
+                    <div className='cont-us'>
+                        <form>
+                             <p className='cont-name'>Name  </p>
+                             <input className='input' type="text" name="name" />
+                             <p className='cont-name'>Phone  </p>
+                             <input className='input' type="tel" name="number" />
+                             <p className='cont-name'>E-Mail  </p>
+                             <input className='input' type="email" name="email" />
+                             <p className='cont-name'>Service you need  </p>
+                             <select className='input' name="Service" id="lang">
+                                <option value="Branding">Branding</option>
+                                <option value="Digital">Digital marketing</option>
+                                <option value="Web">Web/App Design</option>
+                                <option value="Media">Media Production</option>
+                                <option value="App">Web/App Development</option>
+                                <option value="Printing">Printing & packing</option>
+                                <option value="Indoor">Indoor & Outdoor installation</option>
+                            </select>
+                            <p className='cont-name'>What Did you want to know about this service ?</p>
+                             <textarea className='input-l' type="text" name="txt" />
+                             <input className='sub' type="submit" />
+                        </form>
+                    </div>
                 </div>
+            </div>
+
+            <div className='footer'>
+                <div className='f1'>
+                 <img src={pix2} />
+                 <div className='foo-social'>
+                     <div className='soc'><img src={face} /></div>
+                     <div className='soc'><img src={twi} /></div>
+                     <div className='soc'><img src={inst} /></div>
+                     <div className='soc'><img src={ins} /></div>
+                     <div className='soc'><img src={inst} /></div>
+                     <div className='soc'><img src={beh} /></div>
+                 </div>
+                </div>
+
+                <div className='f2'><img src={info} /></div>
+                <div className='f3'>
+                <p className='info-p'>Didn't find your goal ?</p>
+                <p className='info-x'>Search it </p>
+
+                <input className='input' type="search" />
+                </div>
+
             </div>
 
         </div>

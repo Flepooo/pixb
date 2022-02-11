@@ -13,7 +13,7 @@
     box-sizing: border-box;
   }
   body{
-    font-family: Gotham;
+    font-family: gotham;
   }
 
   .top-div{
@@ -241,7 +241,7 @@
 #clients{
   width: 100%;
   height: 800px;
-  margin-top: 65px;
+  margin-top: 20px;
 }
 
 .cli-main{
@@ -263,15 +263,158 @@
 #contact-us{
   width: 100%;
   height: 1000px;
-  margin-top: 190px;
+  margin-top: 110px;
 }
 
 .cont-main{
   width: 80%;
   height: 85%;
-  background-color: blue;
   margin-left: 10%;
   margin-right: 10%;
   display: flex;
 }
 
+.cont-map{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.map{
+  border: 0px;
+  width: 70%;
+  height: 85%;
+  border-radius: 20px;
+}
+
+.cont-us{
+  width: 50%;
+  height: 100%;
+}
+
+.cont-name{
+  font-size: 20px;
+  color: #182B37;
+  padding-top: 3%;
+  padding-left: 10%;
+}
+
+.input{
+  width: 80%;
+  height: 60px;
+  margin-top: 2%;
+  margin-left: 5%;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 20px;
+  border-radius: 20px;
+  border-color: #707070;
+  border-width: 0px;
+  background-color: #f0f1f1;
+}
+
+.input-l{
+  width: 80%;
+  height: 120px;
+  margin-top: 3%;
+  margin-left: 5%;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 20px;
+  border-radius: 20px;
+  border-color: #707070;
+  border-width: 0px;
+  background-color: #f0f1f1;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.select{
+  font-size: 20px;
+  color: #182B37;
+  padding-top: 3%;
+  padding-left: 10%;
+}
+
+.sub{
+  width: 80%;
+  height: 70px;
+  margin-top: 5%;
+  margin-left: 5%;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 20px;
+  border-radius: 20px;
+  border-color: #ffffff;
+  border-width: 0px;
+  background-color: #00B0BD;
+  color: white;
+}
+
+.footer{
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 70px;
+}
+
+.f1{
+  width: 25%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.f2{
+  width: 20%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.f3{
+  width: 35%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.foo-social{
+  width: 70%;
+  height: 15%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.soc{
+  margin-left: 7px;
+  margin-right: 7px;
+}
+
+.info-p{
+  font-size: 30px;
+  padding-left: 7%;
+  margin-bottom: 10px;
+}
+
+.info-x{
+  font-size: 40px;
+  font-weight: bold;
+  color: #00B0BD;
+  padding-left: 7%;
+  margin-bottom: 8px;
+}
+
+.fa fa-instagram icon{
+  position: absolute;
+}
