@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="14.001" height="10.665" viewBox="0 0 14.001 10.665">
+  <g id="mail" transform="translate(0 -61)">
+    <g id="Group_484" data-name="Group 484" transform="translate(0.703 61)">
+      <g id="Group_483" data-name="Group 483">
+        <path id="Path_329" data-name="Path 329" d="M37.788,61H26.248a1.216,1.216,0,0,0-.527.123l6.27,6.27L33.4,66.043h0l4.919-4.919A1.216,1.216,0,0,0,37.788,61Z" transform="translate(-25.721 -61)" fill="#00b0bd"/>
+      </g>
+    </g>
+    <g id="Group_486" data-name="Group 486" transform="translate(9.249 61.704)">
+      <g id="Group_485" data-name="Group 485">
+        <path id="Path_330" data-name="Path 330" d="M342.842,86.728l-4.629,4.629,4.629,4.629a1.216,1.216,0,0,0,.123-.527v-8.2A1.216,1.216,0,0,0,342.842,86.728Z" transform="translate(-338.213 -86.728)" fill="#00b0bd"/>
+      </g>
+    </g>
+    <g id="Group_488" data-name="Group 488" transform="translate(0 61.703)">
+      <g id="Group_487" data-name="Group 487">
+        <path id="Path_331" data-name="Path 331" d="M.123,86.721A1.216,1.216,0,0,0,0,87.248v8.2a1.217,1.217,0,0,0,.123.527L4.752,91.35Z" transform="translate(0 -86.721)" fill="#00b0bd"/>
+      </g>
+    </g>
+    <g id="Group_490" data-name="Group 490" transform="translate(0.703 66.912)">
+      <g id="Group_489" data-name="Group 489">
+        <path id="Path_332" data-name="Path 332" d="M33.679,277.211l-1.405,1.351a.41.41,0,0,1-.58,0l-1.351-1.351-4.629,4.629a1.216,1.216,0,0,0,.527.123h11.54a1.216,1.216,0,0,0,.527-.123Z" transform="translate(-25.714 -277.211)" fill="#00b0bd"/>
+      </g>
+    </g>
+  </g>
+</svg>
